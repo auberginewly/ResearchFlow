@@ -1,0 +1,17 @@
+[project]
+name = "researchflow-backend"
+version = "0.1.0"
+description = "MVP backend for an agentic deep research assistant"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+  "httpx>=0.28.1",
+  "pydantic>=2.8.0",
+  "pydantic-settings>=2.4.0",
+  "reportlab>=4.4.10",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

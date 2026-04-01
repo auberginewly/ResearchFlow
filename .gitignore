@@ -1,0 +1,38 @@
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+backend/.venv/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+frontend/dist/
+*.egg-info/
+backend/src/*.egg-info/
+
+# Runtime workspace data
+backend/workspace/
+
+# IDE
+.idea/
+.vscode/
+.cursor/
